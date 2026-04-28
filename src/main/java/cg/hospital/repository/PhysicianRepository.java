@@ -12,8 +12,7 @@ import cg.hospital.entity.Physician;
     collectionResourceRel = "physicians",
     path = "physicians"
 )
-public interface PhysicianRepository
-    extends JpaRepository<Physician, Integer> {
+public interface PhysicianRepository extends JpaRepository<Physician, Integer> {
 
   
 }
