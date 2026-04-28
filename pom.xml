@@ -6,8 +6,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< Updated upstream
 		<version>3.3.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
+=======
+		<version>3.5.14</version>
+		<relativePath/> <!-- lookup parent from repository -->
+>>>>>>> Stashed changes
 	</parent>
 	<groupId>cg</groupId>
 	<artifactId>hospital</artifactId>
@@ -94,6 +99,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
+		<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
 
 	</dependencies>
 
