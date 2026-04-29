@@ -66,3 +66,7 @@ src\main\resources\application.yml
 src/test/resources/application.properties
 
 pom.xml.metadata/ 
+<<<<<<< HEAD
+=======
+.metadata/
+>>>>>>> upstream/main
